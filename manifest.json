@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "Reload button",
+	"version": "0.1",
+	"description": "Adds a reload button to the browser toolbar.",
+
+	"icons": {
+		"48": "icons/reload.svg",
+		"96": "icons/reload.svg"
+	},
+
+	"permissions": [
+		"tabs"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/stop.svg",
+		"default_title": "Reload",
+		"theme_icons" : [
+			{
+				"light" : "icons/reload-dark.svg",
+				"dark" : "icons/reload.svg",
+				"size" : 16
+			}
+		]    
+	},
+
+	"background": {
+		"scripts": ["reload.js"]
+	}
+}
