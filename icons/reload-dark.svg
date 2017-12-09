@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
-   viewBox="0 0 16 16"
-   version="1.1"
    id="svg1038"
-   sodipodi:docname="reload-dark.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   version="1.1"
+   viewBox="0 0 16 16"
+   height="16"
+   width="16">
   <metadata
      id="metadata1044">
     <rdf:RDF>
@@ -34,30 +26,10 @@
   </metadata>
   <defs
      id="defs1042" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="926"
-     inkscape:window-height="551"
-     id="namedview1040"
-     showgrid="false"
-     inkscape:zoom="14.75"
-     inkscape:cx="8"
-     inkscape:cy="8"
-     inkscape:window-x="1552"
-     inkscape:window-y="396"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg1038" />
   <path
-     fill="context-fill"
-     fill-opacity="context-fill-opacity"
-     d="M15,1a1,1,0,0,0-1,1V4.418A6.995,6.995,0,1,0,8,15a6.954,6.954,0,0,0,4.95-2.05,1,1,0,0,0-1.414-1.414A5.019,5.019,0,1,1,12.549,6H10a1,1,0,0,0,0,2h5a1,1,0,0,0,1-1V2A1,1,0,0,0,15,1Z"
+     style="fill:#bebebe;fill-opacity:1"
      id="path1036"
-     style="fill:#bebebe;fill-opacity:1" />
+     d="M15,1a1,1,0,0,0-1,1V4.418A6.995,6.995,0,1,0,8,15a6.954,6.954,0,0,0,4.95-2.05,1,1,0,0,0-1.414-1.414A5.019,5.019,0,1,1,12.549,6H10a1,1,0,0,0,0,2h5a1,1,0,0,0,1-1V2A1,1,0,0,0,15,1Z"
+     fill-opacity="context-fill-opacity"
+     fill="context-fill" />
 </svg>
