@@ -14,7 +14,7 @@
 	],
 
 	"browser_action": {
-		"default_icon": "icons/stop.svg",
+		"default_icon": "icons/reload.svg",
 		"default_title": "Reload",
 		"theme_icons" : [
 			{
