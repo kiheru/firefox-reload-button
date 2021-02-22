@@ -1,10 +1,17 @@
 'use strict';
 
-function reload(tab) {
-	// TODO: There's no way to detect shift-click.
-	// The user needs to use a keyboard shortcut when a full reload is
-	// needed.
-	browser.tabs.reload(tab.id, {bypassCache: false});
+function reload(tab, onClickData) {
+	let noCache = false;
+	let newTab = false;
+	if (typeof(onClickData !== "undefined")) {
+		noCache = onClickData.modifiers.includes("Shift");
+		newTab = (onClickData.button === 1);
+	}
+	if (newTab) {
+		browser.tabs.create({index: tab.index + 1, url: tab.url});
+	} else {
+		browser.tabs.reload(tab.id, {bypassCache: noCache});
+	}
 }
 
 browser.browserAction.onClicked.addListener(reload);
