@@ -3,7 +3,7 @@
 function reload(tab, onClickData) {
 	let noCache = false;
 	let newTab = false;
-	if (typeof(onClickData !== "undefined")) {
+	if (typeof onClickData !== "undefined") {
 		noCache = onClickData.modifiers.includes("Shift");
 		newTab = (onClickData.button === 1);
 	}
