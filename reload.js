@@ -5,7 +5,7 @@ function reload(tab, onClickData) {
 	let newTab = false;
 	if (typeof onClickData !== "undefined") {
 		noCache = onClickData.modifiers.includes("Shift");
-		newTab = (onClickData.button === 1);
+		newTab = (onClickData.button === 1) || onClickData.modifiers.includes("Ctrl");
 	}
 	if (newTab) {
 		browser.tabs.create({index: tab.index + 1, url: tab.url});
